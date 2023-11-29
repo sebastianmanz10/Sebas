@@ -1,0 +1,17 @@
+
+
+while True:
+
+    velocidad = float (input("ingrese velocidad:"))
+    escala= input("Son kilometros (Km/h) o es millas (M)?: ") .lower()
+
+    if escala == "km/h":
+        millas =( "millas / 1.60") 
+        print (millas)
+
+    elif escala == "m/h": 
+        kilometros = velocidad / 0.62
+        print(kilometros)
+        
+    else: 
+        print ("Escala incorrecta")
